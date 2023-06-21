@@ -1,6 +1,5 @@
 import { doc, getDoc } from "firebase/firestore";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import { db } from "../firebase";
 
